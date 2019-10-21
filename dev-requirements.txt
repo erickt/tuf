@@ -21,7 +21,7 @@ astroid==1.6.5 ; python_version < "3.0" # pyup: ignore
 backports.functools-lru-cache==1.5
 bandit==1.6.2
 certifi==2019.9.11 # via requests
-cffi==1.12.3
+cffi==1.13.1
 chardet==3.0.4 # via requests
 colorama==0.4.1
 configparser==4.0.2
