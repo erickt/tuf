@@ -1002,7 +1002,7 @@ class Updater(object):
       Update the latest copies of the metadata for the top-level roles. The
       update request process follows a specific order to ensure the metadata
       files are securely updated:
-      timestamp -> snapshot -> root (if necessary) -> targets.
+      root -> timestamp -> snapshot -> targets.
 
       Delegated metadata is not refreshed by this method. After this method is
       called, the use of get_one_valid_targetinfo() will update delegated
